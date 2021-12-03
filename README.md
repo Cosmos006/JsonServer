@@ -1,9 +1,11 @@
 # JsonServer
-Json Npm Url
+Json Npm Url:
 https://www.npmjs.com/package/json-server
 
-Install Json
+Install Json:
+
 npm i json-server
 
-Run Json Server
+Run Json Server:
+
 json-server --watch db.json
