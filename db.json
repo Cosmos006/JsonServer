@@ -1,18 +1,85 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" },
-    "INITIAL_EVENTS":[
-        {
-            "id": 1,
-            "title": "Event Today",
-             "date": "2021-12-04 13:15:30"
-        },
-        { "title": "event 1", "date": "2021-12-04" },
-        { "title": "Weekly", "date": "2021-12-06 14:16" }
-    ]
-  }
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "INITIAL_EVENTS": [
+    {
+      "id": 1,
+      "title": "Event Today",
+      "date": "2021-12-04 13:15:30",
+      "color": "green"
+    },
+    {
+      "id": 2,
+      "title": "event 1",
+      "date": "2021-12-04",
+      "color": "green"
+
+    },
+    {
+      "id": 3,
+      "title": "Weekly",
+      "date": "2021-12-06 14:16",
+      "description": "Operations",
+      "color": "green"
+    },
+    {
+      "id": 4,
+      "title": "Patient Appointmnet",
+      "date": "2021-12-07 14:16",
+      "extendedProps": {
+        "department": "BioChemistry"
+      },
+      "description": "Cold and Feaver",
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "title": "Todays Appointmnet",
+      "date": "2021-12-10 14:16",
+      "extendedProps": {
+        "department": "BioChemistry"
+      },
+      "description": "Cold and Feaver",
+      "color": "red"
+    }
+  ],
+  "AdminDashBoard": [
+    {
+      "Appointments": 120,
+      "LockedAccount": 20
+    }
+  ],
+  "PatientBookedAppointment": [
+    {
+      "start": "2019-08-08 8:00",
+      "end": "2019-08-08  8:30"
+    },
+    {
+      "start": "2019-08-08 09:00:00.000",
+      "end": "2019-08-08 09:30:00.000"
+    },
+    {
+      "start": "2019-08-08 10:30:00.000",
+      "end": "2019-08-08 11:00:00.000"
+    },
+    {
+      "start": "2019-08-08 13:00:00.000",
+      "end": "2019-08-08 14:00:00.000"
+    }
+  ]
+}
