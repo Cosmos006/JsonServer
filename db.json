@@ -28,7 +28,6 @@
       "title": "event 1",
       "date": "2021-12-04",
       "color": "green"
-
     },
     {
       "id": 3,
@@ -56,6 +55,27 @@
       },
       "description": "Cold and Feaver",
       "color": "red"
+    },
+    {
+      "id": "153",
+      "title": "Book Appointment",
+      "date": "2021-12-15T05:30:00.000Z",
+      "description": "cold",
+      "color": "red"
+    },
+    {
+      "id": "82",
+      "title": "Book Appointment",
+      "date": "2021-12-30T06:30:00.000Z",
+      "description": "Need Appointment for cold",
+      "color": "red"
+    },
+    {
+      "id": "9",
+      "title": "Book Appointment",
+      "date": "2021-12-31T06:30:00.000Z",
+      "description": "Need Appointment for cold",
+      "color": "red"
     }
   ],
   "AdminDashBoard": [
@@ -81,5 +101,385 @@
       "start": "2019-08-08 13:00:00.000",
       "end": "2019-08-08 14:00:00.000"
     }
+  ],
+  "PayLoad": [
+    {
+      "id": 1,
+      "description": "Serverless Angular with Firebase Course",
+      "longDescription": "Serveless Angular with Firestore, Firebase Storage & Hosting, Firebase Cloud Functions & AngularFire",
+      "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png",
+      "lessonsCount": 10,
+      "category": "BEGINNER",
+      "seqNo": 4,
+      "url": "serverless-angular"
+    },
+    {
+      "id": 2,
+      "description": "Angular Core Deep Dive",
+      "longDescription": "A detailed walk-through of the most important part of Angular - the Core and Common modules",
+      "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png",
+      "lessonsCount": 10,
+      "category": "BEGINNER",
+      "seqNo": 1,
+      "url": "angular-core-course"
+    }
+  ],
+  "GetGender": {
+    "gender": [
+      {
+        "ID": 1,
+        "Value": "Male"
+      },
+      {
+        "ID": 2,
+        "Value": "Female"
+      },
+      {
+        "ID": 3,
+        "Value": "Other"
+      }
+    ]
+  },
+  "GetPhysicianEduaction": {
+    "physician": [
+      {
+        "ID": 1,
+        "Value": "MBBS"
+      },
+      {
+        "ID": 2,
+        "Value": "BDS"
+      },
+      {
+        "ID": 3,
+        "Value": "BAMS"
+      },
+      {
+        "ID": 3,
+        "Value": "BUMS"
+      }
+    ]
+  },
+  "GetNurseEduaction": {
+    "nurse": [
+      {
+        "ID": 1,
+        "Value": "B.Sc.Nursing"
+      },
+      {
+        "ID": 2,
+        "Value": "B.Sc.(Hons.) (Nursing)"
+      },
+      {
+        "ID": 3,
+        "Value": "PostBasic B.Sc. Nursing"
+      },
+      {
+        "ID": 3,
+        "Value": "BUMS"
+      }
+    ]
+  },
+  "GetPhysicianDesignation": {
+    "physician": [
+      {
+        "ID": 1,
+        "Value": "Cardiologist"
+      },
+      {
+        "ID": 2,
+        "Value": "Audiologist"
+      },
+      {
+        "ID": 3,
+        "Value": "Dentist"
+      },
+      {
+        "ID": 3,
+        "Value": "Gynaecologist"
+      }
+    ]
+  },
+  "GetNurseDesignation": {
+    "nurse": [
+      {
+        "ID": 1,
+        "Value": "Nursing assistant (CNA)"
+      },
+      {
+        "ID": 2,
+        "Value": "Licensed practical nurse (LPN)"
+      },
+      {
+        "ID": 3,
+        "Value": "Registered nurse (RN)"
+      },
+      {
+        "ID": 3,
+        "Value": "Advanced practice registered nurses (APRNs)"
+      }
+    ]
+  },
+  "GetPhysicianDepartment": {
+    "physician": [
+      {
+        "ID": 1,
+        "Value": "Operating theatre (OT)"
+      },
+      {
+        "ID": 2,
+        "Value": "Intensive care unit (ICU)"
+      }
+    ]
+  },
+  "GetNurseDepartment": {
+    "nurse": [
+      {
+        "ID": 1,
+        "Value": "Paramedical Departments"
+      },
+      {
+        "ID": 2,
+        "Value": "Pathology Department"
+      }
+    ]
+  },
+  "APPOINTMENT_DATA": [
+    {
+      "id": "1",
+      "name": "AlluArjun",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "891636451",
+      "age": "23",
+      "email": "Vamsi123@gmail.com",
+      "physician": "Dr.Varun"
+    },
+    {
+      "id": "2",
+      "name": "Jr NTR",
+      "gender": "Male",
+      "address": "ChennapatnnamRajamahal",
+      "mobile": "456321789",
+      "age": "50",
+      "email": "jkllkashmi@gmail.com",
+      "physician": "Dr.Kirhsna"
+    },
+    {
+      "id": "3",
+      "name": "Bunny",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "875636567",
+      "age": "23",
+      "email": "Bunny@gmail.com",
+      "physician": "Dr.Sunny"
+    },
+    {
+      "id": "4",
+      "name": "Arjun",
+      "gender": "FeMale",
+      "address": "Pune",
+      "mobile": "7654321",
+      "age": "34",
+      "email": "Arjun@gmail.com",
+      "physician": "Dr.Junnar"
+    },
+    {
+      "id": "5",
+      "name": "Rajamouli",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "891636451",
+      "age": "23",
+      "email": "Rajamouli@gmail.com",
+      "physician": "Dr.Rajamouli"
+    },
+    {
+      "id": "6",
+      "name": "AlluArjun",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "891636451",
+      "age": "23",
+      "email": "Vamsi123@gmail.com",
+      "physician": "Dr.Varun"
+    },
+    {
+      "id": "7",
+      "name": "Srivalli",
+      "gender": "FeMale",
+      "address": "Chittor",
+      "mobile": "654321891",
+      "age": "45",
+      "email": "Srivalli@gmail.com",
+      "physician": "Dr.Srivalli"
+    },
+    {
+      "id": "8",
+      "name": "Srinu",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "891636451",
+      "age": "23",
+      "email": "Srinu@gmail.com",
+      "physician": "Dr.Srinu"
+    },
+    {
+      "id": "9",
+      "name": "JakkaReddy",
+      "gender": "Male",
+      "address": "Chennai",
+      "mobile": "98765321",
+      "age": "23",
+      "email": "JakkaReddy@gmail.com",
+      "physician": "Dr.JakkaReddy"
+    },
+    {
+      "id": "10",
+      "name": "Pushpa",
+      "gender": "Male",
+      "address": "Nallamalla",
+      "mobile": "7895432145",
+      "age": "38",
+      "email": "Pushpa@gmail.com",
+      "physician": "Dr.Raj"
+    },
+    {
+      "id": "11",
+      "name": "Minnu",
+      "gender": "FeMale",
+      "address": "Hyderabad",
+      "mobile": "891636451",
+      "age": "33",
+      "email": "Minnu@gmail.com",
+      "physician": "Dr.Junnu"
+    },
+    {
+      "id": "12",
+      "name": "Srivalli",
+      "gender": "FeMale",
+      "address": "Chittor",
+      "mobile": "654321891",
+      "age": "45",
+      "email": "Srivalli@gmail.com",
+      "physician": "Dr.Srivalli"
+    },
+    {
+      "id": "13",
+      "name": "JakkaReddy",
+      "gender": "Male",
+      "address": "Chennai",
+      "mobile": "98765321",
+      "age": "23",
+      "email": "JakkaReddy@gmail.com",
+      "physician": "Dr.JakkaReddy"
+    },
+    {
+      "id": "14",
+      "name": "Rajamouli",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "891636451",
+      "age": "23",
+      "email": "Rajamouli@gmail.com",
+      "physician": "Dr.Rajamouli"
+    },
+    {
+      "id": "15",
+      "name": "Bunny",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "875636567",
+      "age": "23",
+      "email": "Bunny@gmail.com",
+      "physician": "Dr.Sunny"
+    },
+    {
+      "id": "16",
+      "name": "AlluArjun",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "891636451",
+      "age": "23",
+      "email": "Vamsi123@gmail.com",
+      "physician": "Dr.Varun"
+    },
+    {
+      "id": "17",
+      "name": "AlluArjun",
+      "gender": "Male",
+      "address": "ChennapatnnamRajamahal",
+      "mobile": "891636451",
+      "age": "23",
+      "email": "Vamsi123@gmail.com",
+      "physician": "Dr.Varun"
+    },
+    {
+      "id": "18",
+      "name": "Goudapppa",
+      "gender": "Male",
+      "address": "Bangolore",
+      "mobile": "456382733",
+      "age": "34",
+      "email": "Jauli@gmail.com",
+      "physician": "Dr.JauliReddy"
+    },
+    {
+      "id": "19",
+      "name": "PeddiReddy",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile": "977654334",
+      "age": "45",
+      "email": "Raju123@gmail.com",
+      "physician": "Dr.Kesava"
+    }
+
+  ],
+"DoctorList": [
+    {
+      "id": 1,
+      "name": "Dr.Rajesh",
+      "specailization":"Cardiology",
+      "status": "Available"
+    },
+    {
+      "id": 2,
+      "name": "Dr.Krishna",
+      "specailization":"Physician",
+      "status": "Available"
+    },
+    {
+      "id": 3,
+      "name": "Dr.Rama",
+      "specailization":"Urologist",
+      "status": "Available"
+    },
+    {
+      "id": 4,
+      "name": "Dr.Rajesh",
+      "specailization":"Cardiology",
+      "status": "Available"
+    },
+    {
+      "id": 5,
+      "name": "Dr.Vamsi",
+      "specailization":"Physician",
+      "status": "Available"
+    },
+    {
+      "id": 6,
+      "name": "Dr.AlluArjun",
+      "specailization":"Nuerologiest",
+      "status": "Absent"
+    },
+    {
+      "id": 7,
+      "name": "Dr.VamsiMohan",
+      "specailization":"Demotologist",
+      "status": "Available"
+    }
+
   ]
 }
